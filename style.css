@@ -2798,6 +2798,7 @@ nav ul li a:hover {
     
 }
 #section-1 h5 {
+    display: block;
     visibility: hidden;
 }
 
@@ -2813,10 +2814,10 @@ nav ul li a:hover {
 }
 
 #section-1 h4{
-    color: #fff;
+    color: rgb(255, 255, 255);
     
     font-size: 1.3rem;
-    margin-top: 10px;
+    margin-top: 30px;
     margin-left: -10px;
     
     
