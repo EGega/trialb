@@ -29,6 +29,11 @@ body{
 
 /* Section-3 */ 
 
+#hidethenavbar {
+    display: none;
+    
+}
+
 #section-3 .fluid-container {
     background-color: #f4f4f4;
 }
@@ -41,6 +46,7 @@ nav {
     position: fixed;
     z-index: 11;
 }
+
 label.logo {
     color: #fff;
     font-size: 2.1rem;
@@ -2775,6 +2781,11 @@ nav ul li a:hover {
     position: relative;
 }
 
+#hidethenavbar {
+    
+    height: 80px;
+    width: 100%;
+}
 
 #section-1 h3{
     color: #fff;
