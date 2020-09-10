@@ -111,6 +111,10 @@ nav ul li a:hover {
     align-items: center;
     justify-content: center;
 }
+
+#section-1 h5 {
+    display: none;
+}
 #section-1 h2{
     margin-top: 350px;
     color: #000;
@@ -1997,6 +2001,9 @@ nav ul li a:hover {
    
     
 }
+#section-1 h5 {
+    display: none;
+}
 #section-1 .col-lg-6 {
     width: 300px;
     margin-left: 50px;
@@ -2790,6 +2797,10 @@ nav ul li a:hover {
    
     
 }
+#section-1 h5 {
+    visibility: hidden;
+}
+
 #section-1 .col-lg-6 {
    
     display: none;
@@ -2805,7 +2816,7 @@ nav ul li a:hover {
     color: #fff;
     
     font-size: 1.3rem;
-    
+    margin-top: 10px;
     margin-left: -10px;
     
     
