@@ -33,6 +33,11 @@ body{
     display: none;
     
 }
+#trialb-main {
+    text-decoration: none;
+    color: white;
+}
+
 
 #section-3 .fluid-container {
     background-color: #f4f4f4;
