@@ -2792,6 +2792,9 @@ nav ul li a:hover {
 
   /* SECTİON_ */
 
+
+
+
 #section-1 {
     background: url('img/hair-2.jpg') center/cover no-repeat;
     width: 100%;
@@ -3935,4 +3938,14 @@ nav ul li a:hover {
 
 
 }
-  
+
+@media(max-width: 330px) {
+    label.logo {
+        width: 250px;
+        font-size: 1.5rem;
+    }
+    #my-logo {
+        width: 70px;
+        height: 70px;
+    }
+}
