@@ -1929,6 +1929,64 @@ nav ul li a:hover {
 
 }
 
+#galeri {
+    height: 1900px;
+}
+
+#galeri .my-galeri {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap:  30px;
+    background-color: #f7f5f5a8;
+    position: relative;
+    top: 300px;
+    margin-top: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+ #galeri .my-galeri img {
+     width: 500px;
+     height: 450px;
+     transition-duration: 500ms;
+ }
+ #galeri .my-galeri img:hover {
+     width: 510px;
+     height: 460px;
+     box-shadow: 5px 5px 5px 5px #000000;
+     border-radius: 0 10%;
+ }
+
+
+ #galeri .black-block {
+    width: 100%;
+    background-color: #1b262c;
+    height: 200px;
+    position: absolute;
+    top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+ }
+
+ #galeri .black-block h2 {
+   text-align: center;
+   color: #fff;
+   font-size: 2.4rem;
+ }
+ #galeri .black-block h3 {
+     margin-top: 10px;
+     font-size: 2.5rem;
+   text-align: center;
+   color: #6bd2f1;
+ }
+
+#galeri .my-2-container {
+    height: 100%;
+}
+ 
 
 
  /* R E S P O N S I V E N E S */
@@ -1976,7 +2034,9 @@ nav ul li a:hover {
         left: 0;
     }
   }
+
   
+
 
 
 /* MEDIA QUERIES */
@@ -2754,6 +2814,69 @@ nav ul li a:hover {
 #pyetje .my-2-container {
     margin: 0;
 }
+
+
+#galeri {
+    height: 3330px;
+}
+
+#galeri .my-galeri {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap:  30px;
+    background-color: #f7f5f5a8;
+    position: relative;
+    top: 300px;
+    padding-top: 50px;
+
+}
+ #galeri .my-galeri img {
+     width: 500px;
+     height: 450px;
+     transition-duration: 500ms;
+ }
+ #galeri .my-galeri img:hover {
+     width: 510px;
+     height: 460px;
+     box-shadow: 5px 5px 5px 5px #000000;
+     border-radius: 0 10%;
+ }
+
+
+ #galeri .black-block {
+    width: 100%;
+    background-color: #1b262c;
+    height: 200px;
+    position: absolute;
+    top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+ }
+
+ #galeri .black-block h2 {
+   text-align: center;
+   color: #fff;
+   font-size: 2.4rem;
+ }
+ #galeri .black-block h3 {
+     margin-top: 10px;
+     font-size: 2.5rem;
+   text-align: center;
+   color: #6bd2f1;
+ }
+
+#galeri .my-2-container {
+    height: 100%;
+}
+
+
+
+
+
+
 #footer-1 .my-2-container{
     margin: 0;
 }
@@ -3936,8 +4059,68 @@ nav ul li a:hover {
     font-size: 1.5rem;
 }
 
+#galeri {
+    height: 3330px;
+}
+
+#galeri .my-galeri {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap:  30px;
+    background-color: #f7f5f5a8;
+    position: relative;
+    top: 300px;
+    padding-top: 50px;
 
 }
+ #galeri .my-galeri img {
+     width: 300px;
+     height: 260px;
+     transition-duration: 500ms;
+ }
+ #galeri .my-galeri img:hover {
+     width: 310px;
+     height: 260px;
+     box-shadow: 3px 3px 3px 3px #000000;
+     border-radius: 0 10%;
+ }
+
+
+ #galeri .black-block {
+    width: 100%;
+    background-color: #1b262c;
+    height: 200px;
+    position: absolute;
+    top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+ }
+
+ #galeri .black-block h2 {
+   text-align: center;
+   color: #fff;
+   font-size: 2.4rem;
+ }
+ #galeri .black-block h3 {
+     margin-top: 10px;
+     font-size: 2.5rem;
+     text-align: center;
+     color: #6bd2f1;
+ }
+
+#galeri .my-2-container {
+    height: 100%;
+    margin: 0;
+}
+
+
+
+}
+
+
 
 @media(max-width: 330px) {
     label.logo {
@@ -3948,4 +4131,66 @@ nav ul li a:hover {
         width: 70px;
         height: 70px;
     }
+
+
+    #galeri {
+        height: 2080px;
+    }
+    
+    #galeri .my-galeri {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:  30px;
+        background-color: #f7f5f5a8;
+        position: relative;
+        top: 300px;
+        padding-top: 50px;
+    
+    }
+     #galeri .my-galeri img {
+         width: 270px;
+         height: 240px;
+         transition-duration: 500ms;
+     }
+     #galeri .my-galeri img:hover {
+         width: 280px;
+         height: 260px;
+         box-shadow: 3px 3px 3px 3px #000000;
+         border-radius: 0 10%;
+     }
+    
+    
+     #galeri .black-block {
+        width: 100%;
+        background-color: #1b262c;
+        height: 200px;
+        position: absolute;
+        top: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+     }
+    
+     #galeri .black-block h2 {
+       text-align: center;
+       color: #fff;
+       font-size: 1.4rem;
+     }
+     #galeri .black-block h3 {
+         margin-top: 10px;
+         font-size: 1.5rem;
+         text-align: center;
+         color: #6bd2f1;
+     }
+    
+    #galeri .my-2-container {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    
+
 }
