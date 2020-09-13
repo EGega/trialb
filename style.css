@@ -4060,7 +4060,7 @@ nav ul li a:hover {
 }
 
 #galeri {
-    height: 3330px;
+    height: 2180px;
 }
 
 #galeri .my-galeri {
@@ -4100,16 +4100,16 @@ nav ul li a:hover {
  }
 
  #galeri .black-block h2 {
-   text-align: center;
-   color: #fff;
-   font-size: 2.4rem;
- }
- #galeri .black-block h3 {
-     margin-top: 10px;
-     font-size: 2.5rem;
-     text-align: center;
-     color: #6bd2f1;
- }
+    text-align: center;
+    color: #fff;
+    font-size: 1.4rem;
+  }
+  #galeri .black-block h3 {
+      margin-top: 10px;
+      font-size: 1.5rem;
+      text-align: center;
+      color: #6bd2f1;
+  }
 
 #galeri .my-2-container {
     height: 100%;
